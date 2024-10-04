@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="fullname">Nome Completo:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required>
+            
+            <label for="address">Endereço:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <label for="workplace">Onde Trabalha:</label>
+            <input type="text" id="workplace" name="workplace" required>
+            
+            <label for="shift">Turno de Trabalho:</label>
+            <select id="shift" name="shift" required>
+                <option value="">Selecione</option>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+
+            <label for="phone">Número de Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="dob">Data de Nascimento:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <label for="maritalStatus">Estado Civil:</label>
+            <select id="maritalStatus" name="maritalStatus" required>
+                <option value="">Selecione</option>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+            </select>
+            
+            <label for="nationality">Nacionalidade:</label>
+            <input type="text" id="nationality" name="nationality" required>
+
+            <label for="motherName">Nome da Mãe:</label>
+            <input type="text" id="motherName" name="motherName" required>
+
+            <label for="fatherName">Nome do Pai:</label>
+            <input type="text" id="fatherName" name="fatherName" required>
+            
+            <label for="state">Estado:</label>
+            <input type="text" id="state" name="state" required>
+            
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" name="city" required>
+            
+            <label for="zip">CEP:</label>
+            <input type="text" id="zip" name="zip" required>
+            
+            <label for="country">País:</label>
+            <input type="text" id="country" name="country" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
